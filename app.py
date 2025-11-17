@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Coach PI")
+st.title("Coach PI V2")
 
 
 
