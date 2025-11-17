@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Creating deployment artifact..."
+      - ls -la
+      - ls -la scripts/
+
+artifacts:
+  files:
+    - '**/*'
+  name: deployment-artifact
